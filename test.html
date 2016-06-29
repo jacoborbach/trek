@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="myScripts.js"></script>
+<script type="text/javascript">
+<!--
+// This will generate the text file content based on the form data
+function buildData(){
+    var txtData = "User" : {
+    	"firstName" : $("#nameField").val(),
+    	"lastName" : $("#lastNameField").val()
+    };
+    return txtData;
+}
+// This will be executed when the document is ready
+$(function(){
+    // This will act when the submit BUTTON is clicked
+    $("#formToSave").submit(function(event){
+    	console.log("in");
+        event.preventDefault();
+        var txtData = buildData();
+        console.log(txtData);
+    });
+
+});
+//-->
+</script>
+</head>
+<body>
+    <div>
+        <form method="post" action="" id="formToSave">
+            <dl>
+                <dt>Name:</dt>
+                <dd><input type="text" id="nameField" value="Sample" /></dd>
+                <dt>Last Name:</dt>
+                <dd><input type="text" id="lastNameField" value="Last Name" /></dd>
+            </dl>
+            <p><button type="submit">Button</button></p>
+        </form>
+    </div>
+
+</body>
+</html>
