@@ -8,14 +8,14 @@
 				"4" : "Villa Verde"
 			},
 			"Excursions" : [
-				"Blue Grotto",
-				"Casa Rossa",
-				"Certosa di San Giacomo",
-				"Fotelina",
-				"Marina Piccola",
-				"Monte Solaro Chairlift",
-				"Villa Jovis",
-				"Villa San Michele"
+				{"name" : "Blue Grotto"}
+				{"name" : "Casa Rossa"},
+				{"name" : "Certosa di San Giacomo"},
+				{"name" : "Fotelina"},
+				{"name" : "Marina Piccola"},
+				{"name" : "Monte Solaro Chairlift"},
+				{"name" : "Villa Jovis"},
+				{"name" : "Villa San Michele"}
 			],
 			"Nightlife" : {
 				"1" : "Anema e CordobesCeleste",
