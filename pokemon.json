@@ -1,0 +1,19 @@
+{
+	"starters" :
+	[
+		"bulbasour",
+		"squirtle",
+		"charmander"
+	], 
+	"legendary" :
+	[
+		"Articuno",
+		"Zapdos",
+		"Moltres"
+	],
+	"special" :
+	[
+		"Mew",
+		"Mewto"
+	]
+}
