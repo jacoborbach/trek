@@ -1,5 +1,34 @@
 {
 	"Italy" : {
+		"Capri" : {
+			"Food" : {
+				"1" : "E Divino",
+				"2" : "Il Geranto",
+				"3" : "Raffaele Buonacore",
+				"4" : "Villa Verde"
+			},
+			"Excursions" : [
+				"Blue Grotto",
+				"Casa Rossa",
+				"Certosa di San Giacomo",
+				"Fotelina",
+				"Marina Piccola",
+				"Monte Solaro Chairlift",
+				"Villa Jovis",
+				"Villa San Michele"
+			],
+			"Nightlife" : {
+				"1" : "Anema e CordobesCeleste",
+				"2" : "Number Two",
+				"3" : "Pulalli",
+				"4" : "Red",
+				"5" : "Quid"
+			},
+			"Sleeping" : {
+				"1" : "Caesar Augustus",
+				"2" : "Villa Eva"
+			}
+		},
 		"Amalfi Coast" : {
 			"Food" : {
 				"1" : "Babel",
@@ -32,36 +61,6 @@
 				"4" : "Seven Hostel"
 			}
 		}, 
-		"Capri" : {
-
-			"Food" : {
-				"1" : "E Divino",
-				"2" : "Il Geranto",
-				"3" : "Raffaele Buonacore",
-				"4" : "Villa Verde"
-			},
-			"Excursions" : {
-				"1" : "Blue Grotto",
-				"2" : "Casa Rossa",
-				"3" : "Certosa di San Giacomo",
-				"4" : "Fotelina",
-				"5" : "Marina Piccola",
-				"6" : "Monte Solaro Chairlift",
-				"7" : "Villa Jovis",
-				"8" : "Villa San Michele"
-			},
-			"Nightlife" : {
-				"1" : "Anema e CordobesCeleste",
-				"2" : "Number Two",
-				"3" : "Pulalli",
-				"4" : "Red",
-				"5" : "Quid"
-			},
-			"Sleeping" : {
-				"1" : "Caesar Augustus",
-				"2" : "Villa Eva"
-			}
-		},
 		"Cinque Terre" : {
 			"Food" : {
 				"1" : "Caffe Matteo",

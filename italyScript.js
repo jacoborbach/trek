@@ -1,17 +1,34 @@
 var fs = require('fs');
 
-fs.readFile('ITALY1.json', function(err, data) {
+fs.readFile('Trek.json', function(err, data) {
   if (err) {
     throw err;
     console.log(err);
   } else {
 
-    var italy = JSON.parse(data);
+    var allData = JSON.parse(data);
+    var italy = allData.Italy
+    var capri = italy.Capri
+    var excur = capri.Excursions
+    // console.log("Parsed the JSON");
 
-    console.log("Parsed the JSON");
+    // var printer = italy.Italy.Capri.Food
 
-    italy.Italy.Capri.Food.forEach(function(thing){
-      console.log(thing)
+    // console.log(printer)
+
+    excur.forEach(function(thing){
+      console.log(thing);
+      excur.push("+");
+    });
+
+    excur = JSON.stringify(excur);
+
+    fs.writeFile('Trek.json', excur, function(err) {
+      if (err) {
+        throw err;
+      } else {
+        console.log('excur was added');
+      }
     });
   }
 });
