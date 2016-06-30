@@ -33,6 +33,21 @@ function writeJson(){
   });
 }
 
+function createUserJson(json){
+  var fs = require('fs');
+
+  var stringy = JSON.stringify(json);
+
+  fs.writeFile('test.json', json, function(err) {
+    if (err) {
+      console.log(err);
+      throw err;
+    } else {
+      console.log("test.json was written");
+    }
+  })
+}
+
 function buildData(){
     // var txtData = "User" : {
     //     "firstName" : $("#nameField").val(),
@@ -41,4 +56,15 @@ function buildData(){
     // var txtData = "firstName: "+$("#nameField").val()+" lastName: "+$("#lastNameField").val()
     var txtData = 'User:{"firstName":'+$("#nameField").val()+',"lastName":'+$("#lastNameField").val()+'}';
     return txtData;
+}
+
+function myBuild(myArray){
+  var data = {};
+  var array = myArray;
+
+  jQuery.each(array, function() {
+        data[this.name] = this.value;
+  });
+    
+  return data;
 }

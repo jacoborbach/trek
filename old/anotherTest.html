@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="myScripts.js"></script>
+<script type="text/javascript">
+
+$(function(){
+    $("#formToSave").submit(function(event){
+    	console.log("in");
+    	var txtData = buildData();
+        console.log(txtData);
+        event.preventDefault();    
+    });
+
+    $("#myForm").submit(function( event ) {
+        //console.log( $( this ).serializeArray() );
+        
+        event.preventDefault();
+    });
+
+});
+
+
+//-->
+</script>
+</head>
+<body>
+    <div>
+        <form id="myForm">
+          <div><input type="text" name="a" value="1" id="a"></div>
+          <div><input type="text" name="b" value="2" id="b"></div>
+          <div><input type="text" name="c" value="3" id="c"></div>
+          <div>
+            <textarea name="d" rows="8" cols="40">4</textarea>
+          </div>
+          <div><select name="e">
+            <option value="5" selected="selected">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select></div>
+          <div>
+            <input type="checkbox" name="f" value="8" id="f">
+          </div>
+          <div>
+            <input type="submit" name="g" value="Submit" id="g">
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
