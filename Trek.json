@@ -1,14 +1,14 @@
 {
 	"Italy" : {
 		"Capri" : {
-			"Food" : {
-				"1" : "E Divino",
-				"2" : "Il Geranto",
-				"3" : "Raffaele Buonacore",
-				"4" : "Villa Verde"
-			},
+			"Food" : [
+				{"name" : "E Divino"},
+				{"name" : "Il Geranto"},
+				{"name" : "Raffaele Buonacore"},
+				{"name" : "Villa Verde"}
+			],
 			"Excursions" : [
-				{"name" : "Blue Grotto"}
+				{"name" : "Blue Grotto"},
 				{"name" : "Casa Rossa"},
 				{"name" : "Certosa di San Giacomo"},
 				{"name" : "Fotelina"},
@@ -17,1139 +17,1127 @@
 				{"name" : "Villa Jovis"},
 				{"name" : "Villa San Michele"}
 			],
-			"Nightlife" : {
-				"1" : "Anema e CordobesCeleste",
-				"2" : "Number Two",
-				"3" : "Pulalli",
-				"4" : "Red",
-				"5" : "Quid"
-			},
-			"Sleeping" : {
-				"1" : "Caesar Augustus",
-				"2" : "Villa Eva"
-			}
+			"Nightlife" : [
+				{"name" : "Anema e CordobesCeleste"},
+				{"name" : "Number Two"},
+				{"name" : "Pulalli"},
+				{"name" : "Red"},
+				{"name" : "Quid"}
+			],
+			"Sleeping" : [
+				{"name" : "Caesar Augustus"},
+				{"name" : "Villa Eva"}
+			]
 		},
 		"Amalfi Coast" : {
-			"Food" : {
-				"1" : "Babel",
-				"2" : "Da Emilia",
-				"3" : "Don Alfonso 1890",
-				"4" : "Donna Sofia",
-				"5" : "L'Antica Pizzeria Da Michele",
-				"6" : "La Lanterna",
-				"7" : "La Torre",
-				"8" : "Next2",
-				"9" : "Pizzaria Aurora"
-			},
-			"Excursions" : {
-				"1" : "Catterdrale di Sant'Andrea",
-				"2" : "Day trip to Pompeii",
-				"3" : "Museo della Carta",
-				"4" : "Villa Rufolo"
-			},
-			"Nightlife" : {
-				"1" : "L'Africana",
-				"2" : "La Brezza",
-				"3" : "La Zagara",
-				"4" : "Music on the Rocks",
-				"5" : "Paradise"
-			},
-			"Sleeping" : {
-				"1" : "Hotel Mediterraneo Sorrento",
-				"2" : "Hotel Pasitea",
-				"3" : "Hilton Sorrento Palace",
-				"4" : "Seven Hostel"
-			}
+			"Food" : [
+				{"name" : "Babel"},
+				{"name" : "Da Emilia"},
+				{"name" : "Don Alfonso 1890"},
+				{"name" : "Donna Sofia"},
+				{"name" : "L'Antica Pizzeria Da Michele"},
+				{"name" : "La Lanterna"},
+				{"name" : "La Torre"},
+				{"name" : "Next2"},
+				{"name" : "Pizzaria Aurora"}
+			],
+			"Excursions" : [
+				{"name" : "Catterdrale di Sant'Andrea"},
+				{"name" : "Day trip to Pompeii"},
+				{"name" : "Museo della Carta"},
+				{"name" : "Villa Rufolo"}
+			],
+			"Nightlife" : [
+				{"name" : "L'Africana"},
+				{"name" : "La Brezza"},
+				{"name" : "La Zagara"},
+				{"name" : "Music on the Rocks"},
+				{"name" : "Paradise"}
+			],
+			"Sleeping" : [
+				{"name" : "Hotel Mediterraneo Sorrento"},
+				{"name" : "Hotel Pasitea"},
+				{"name" : "Hilton Sorrento Palace"},
+				{"name" : "Seven Hostel"}
+			]
 		}, 
 		"Cinque Terre" : {
-			"Food" : {
-				"1" : "Caffe Matteo",
-				"2" : "Aristide",
-				"3" : "Dau Cila" ,
-				"4" : "Gambero Rosso",
-				"5" : "Gianni Franzi",
-				"6" : "Il Pirata delle Cinque Terre",
-				"7" : "La Lanterna",
-				"8" : "Ristorante Belforte",
-				"9" : "Trattoria da Sandro"
-			},
-			"Excursions" : {
-				"1" : "Corniglia",
-				"2" : "Manarola",
-				"3" : "Monterosso al Mare (Beach Town)",
-				"4" : "Portofino",
-				"5" : "Riomaggiore",
-				"6" : "Vernazza"
-			},
-			"Nightlife" : {
-				"1" : "Burgus Bar",
-				"2" : "Bar Centrale",
-				"3" : "La Scuna"
-			},
-			"Sleeping" : {
-				"1" : "Il Giardino Incantato B&B",
-				"2" : "La Torretta"
-			}
+			"Food" : [
+				{"name" : "Caffe Matteo"},
+				{"name" : "Aristide"},
+				{"name" : "Dau Cila"},
+				{"name" : "Gambero Rosso"},
+				{"name" : "Gianni Franzi"},
+				{"name" : "Il Pirata delle Cinque Terre"},
+				{"name" : "La Lanterna"},
+				{"name" : "Ristorante Belforte"},
+				{"name" : "Trattoria da Sandro"}
+			],
+			"Excursions" : [
+				{"name" : "Corniglia"},
+				{"name" : "Manarola"},
+				{"name" : "Monterosso al Mare (Beach Town)"},
+				{"name" : "Portofino"},
+				{"name" : "Riomaggiore"},
+				{"name" : "Vernazza"}
+			],
+			"Nightlife" : [
+				{"name" : "Burgus Bar"},
+				{"name" : "Bar Centrale"},
+				{"name" : "La Scuna"}
+			],
+			"Sleeping" : [
+				{"name" : "Il Giardino Incantato B&B"},
+				{"name" : "La Torretta"}
+			]
 		},
 		"Florence" : {
-			"Food" : {
-				"1" : "5 e Cinque",
-				"2" : "Angels",
-				"3" : "Snack Bar Anna",
-				"4" : "Antica Macelleria Falorni",
-				"5" : "Baroni",
-				"6" : "Berberè",
-				"7" : "Cibrèo",
-				"8" : "Ciro & Sons",
-				"9" : "Culinaria Bistrot",
-				"10" : "Da Nerbone",
-				"11" : "Da Sergio",
-				"12" : "Gelateria Artigianale Le Dame",
-				"13" : "Gnam",
-				"14" : "Golden View Open Bar",
-				"15" : "Grom",
-				"16" : "Gustoleo",
-				"17" : "I Ghibellini",
-				"18" : "Il Gusta Pizza",
-				"19" : "Il Profeta",
-				"20" : "Il Santo Bevitore",
-				"21" : "In Fabbrica",
-				"22" : "Il Teatro del Sale",
-				"23" : "L'Antico Noè",
-				"24" : "La Bottega del Buon Caffè",
-				"25" : "La Casalinga",
-				"26" : "La Giostra",
-				"27" : "La Leggenda dei Frati",
-				"28" : "Lorenzo de' Medici",
-				"29" : "Mago Merlino Tea House",
-				"30" : "Mariano",
-				"31" : "Mario",
-				"32" : "Mercato Centrale",
-				"33" : "Osteria Il Gatto e la Volpe",
-				"34" : "Osteria dè Benci",
-				"35" : "Osteria Dell'Agnolo",
-				"36" : "Perchè No",
-				"37" : "Perini",
-				"38" : "Procacci",
-				"39" : "Ristorante Buca Mario",
-				"40" : "Ristorante Il Latini",
-				"41" : "Rivoire",
-				"42" : "Rose's",
-				"43" : "Sasso Di Dante",
-				"44" : "Semel",
-				"45" : "Taverna del Bronzino",
-				"46" : "Tijuana",
-				"47" : "The Diner",
-				"48" : "The Fusion Bar & Restaurant",
-				"49" : "The Oil Shoppe",
-				"50" : "Trattoria 4 Leoni",
-				"51" : "Trattoria 13 Gobbi",
-				"52" : "Trattoria Baldovino",
-				"53" : "Trattoria Borgo Antico",
-				"54" : "Trattoria Mamma Gina",
-				"55" : "Trattoria Mario",
-				"56" : "Trattoria Pandemonio",
-				"57" : "Trattoria Sostantza",
-				"58" : "Trattoria ZàZà",
-				"59" : "Yellow Bar"
-			},
-			"Excursions": {
-				"1" : "Basilica di Santa Croce",
-				"2" : "Basilica di Santo Spirito",
-				"3" : "Campanile",
-				"4" : "Cappella Brancacci",
-				"5" : "Corridoio Vasariano",
-				"6" : "Cupola del Brunelleschi",
-				"7" : "Boboli Gardens",
-				"8" : "Duomo",
-				"9" : "Galleria dell'Accademia (Includes the David)",
-				"10" : "Giardino Bardini",
-				"11" : "Grande Museo del Duomo",
-				"12" : "Great Synagogue of Florence",
-				"13" : "Jewish Ghetto",
-				"14" : "mercato Centrale",
-				"15" : "Museo del Bargello",
-				"16" : "Museo di San Marco",
-				"17" : "Museo Novecento",
-				"18" : "Palazzo Vecchio",
-				"19" : "Palazzo Pitti",
-				"20" : "Piazza della Signoria",
-				"21" : "Piazza di Santa Croce",
-				"22" : "Piazza di Santa Maria Novella",
-				"23" : "Piazzale Michelangelo",
-				"24" : "Satna Croce",
-				"25" : "Uffizi Gallery"
-			},
-			"Nightlife" : {
-				"1" : "Amadeus",
-				"2" : "Andromeda",
-				"3" : "Astor Cafe",
-				"4" : "Bar Tabacchi Robin Hood",
-				"5" : "Casa del Vino",
-				"6" : "Coquinarius",
-				"7" : "Discoteca Central Park",
-				"8" : "Ditta Artigianale",
-				"9" : "Eby's",
-				"10" : "Full up",
-				"11" : "Il Bar De L'O",
-				"12" : "Il Santino",
-				"13" : "JJ Cathedral Irish Pub",
-				"14" : "Kikuya",
-				"15" : "Le Volpi e I'Uva",
-				"16" : "Naima",
-				"17" : "Red Garter",
-				"18" : "Space Club",
-				"19" : "The Lion’s Fountain Irish Pub",
-				"20" : "Volume",
-				"21" : "Yab"
-			},
-			"Sleeping" : {
-				"1" : "Antica Dimora Johlea",
-				"2" : "Archi Rossi Hostel",
-				"3" : "Belmond Villa San Michele",
-				"4" : "Hotel Bavaria",
-				"5" : "Hotel Universo",
-				"6" : "Hotel Visconti",
-				"7" : "Il Salviatino",
-				"8" : "In Piazza della Signoria",
-				"9" : "JK Place",
-				"10" : "Monna Lisa",
-				"11" : "Morandi alla Crocetta",
-				"12" : "N4U Guest House",
-				"13" : "Hotel Spagna",
-				"14" : "Torre di Bellosguardo",
-				"15" : "Villa La Massa"
-			}
+			"Food" : [
+				{"name" : "5 e Cinque"},
+				{"name" : "Angels"},
+				{"name" : "Snack Bar Anna"},
+				{"name" : "Antica Macelleria Falorni"},
+				{"name" : "Baroni"},
+				{"name" : "Berberè"},
+				{"name" : "Cibrèo"},
+				{"name" : "Ciro & Sons"},
+				{"name" : "Culinaria Bistrot"},
+				{"name" : "Da Nerbone"},
+				{"name" : "Da Sergio"},
+				{"name" : "Gelateria Artigianale Le Dame"},
+				{"name" : "Gnam"},
+				{"name" : "Golden View Open Bar"},
+				{"name" : "Grom"},
+				{"name" : "Gustoleo"},
+				{"name" : "I Ghibellini"},
+				{"name" : "Il Gusta Pizza"},
+				{"name" : "Il Profeta"},
+				{"name" : "Il Santo Bevitore"},
+				{"name" : "In Fabbrica"},
+				{"name" : "Il Teatro del Sale"},
+				{"name" : "L'Antico Noè"},
+				{"name" : "La Bottega del Buon Caffè"},
+				{"name" : "La Casalinga"},
+				{"name" : "La Giostra"},
+				{"name" : "La Leggenda dei Frati"},
+				{"name" : "Lorenzo de' Medici"},
+				{"name" : "Mago Merlino Tea House"},
+				{"name" : "Mariano"},
+				{"name" : "Mario"},
+				{"name" : "Mercato Centrale"},
+				{"name" : "Osteria Il Gatto e la Volpe"},
+				{"name" : "Osteria dè Benci"},
+				{"name" : "Osteria Dell'Agnolo"},
+				{"name" : "Perchè No"},
+				{"name" : "Perini"},
+				{"name" : "Procacci"},
+				{"name" : "Ristorante Buca Mario"},
+				{"name" : "Ristorante Il Latini"},
+				{"name" : "Rivoire"},
+				{"name" : "Rose's"},
+				{"name" : "Sasso Di Dante"},
+				{"name" : "Semel"},
+				{"name" : "Taverna del Bronzino"},
+				{"name" : "Tijuana"},
+				{"name" : "The Diner"},
+				{"name" : "The Fusion Bar & Restaurant"},
+				{"name" : "The Oil Shoppe"},
+				{"name" : "Trattoria 4 Leoni"},
+				{"name" : "Trattoria 13 Gobbi"},
+				{"name" : "Trattoria Baldovino"},
+				{"name" : "Trattoria Borgo Antico"},
+				{"name" : "Trattoria Mamma Gina"},
+				{"name" : "Trattoria Mario"},
+				{"name" : "Trattoria Pandemonio"},
+				{"name" : "Trattoria Sostantza"},
+				{"name" : "Trattoria ZàZà"},
+				{"name" : "Yellow Bar"}
+			],
+			"Excursions": [
+				{"name" : "Basilica di Santa Croce"},
+				{"name" : "Basilica di Santo Spirito"},
+				{"name" : "Campanile"},
+				{"name" : "Cappella Brancacci"},
+				{"name" : "Corridoio Vasariano"},
+				{"name" : "Cupola del Brunelleschi"},
+				{"name" : "Boboli Gardens"},
+				{"name" : "Duomo"},
+				{"name" : "Galleria dell'Accademia (Includes the David)"},
+				{"name" : "Giardino Bardini"},
+				{"name" : "Grande Museo del Duomo"},
+				{"name" : "Great Synagogue of Florence"},
+				{"name" : "Jewish Ghetto"},
+				{"name" : "mercato Centrale"},
+				{"name" : "Museo del Bargello"},
+				{"name" : "Museo di San Marco"},
+				{"name" : "Museo Novecento"},
+				{"name" : "Palazzo Vecchio"},
+				{"name" : "Palazzo Pitti"},
+				{"name" : "Piazza della Signoria"},
+				{"name" : "Piazza di Santa Croce"},
+				{"name" : "Piazza di Santa Maria Novella"},
+				{"name" : "Piazzale Michelangelo"},
+				{"name" : "Satna Croce"},
+				{"name" : "Uffizi Gallery"}
+			],
+			"Nightlife" : [
+				{"name" : "Amadeus"},
+				{"name" : "Andromeda"},
+				{"name" : "Astor Cafe"},
+				{"name" : "Bar Tabacchi Robin Hood"},
+				{"name" : "Casa del Vino"},
+				{"name" : "Coquinarius"},
+				{"name" : "Discoteca Central Park"},
+				{"name" : "Ditta Artigianale"},
+				{"name" : "Eby's"},
+				{"name" : "Full up"},
+				{"name" : "Il Bar De L'O"},
+				{"name" : "Il Santino"},
+				{"name" : "JJ Cathedral Irish Pub"},
+				{"name" : "Kikuya"},
+				{"name" : "Le Volpi e I'Uva"},
+				{"name" : "Naima"},
+				{"name" : "Red Garter"},
+				{"name" : "Space Club"},
+				{"name" : "The Lion’s Fountain Irish Pub"},
+				{"name" : "Volume"},
+				{"name" : "Yab"}
+			],
+			"Sleeping" : [
+				{"name" : "Antica Dimora Johlea"},
+				{"name" : "Archi Rossi Hostel"},
+				{"name" : "Belmond Villa San Michele"},
+				{"name" : "Hotel Bavaria"},
+				{"name" : "Hotel Universo"},
+				{"name" : "Hotel Visconti"},
+				{"name" : "Il Salviatino"},
+				{"name" : "In Piazza della Signoria"},
+				{"name" : "JK Place"},
+				{"name" : "Monna Lisa"},
+				{"name" : "Morandi alla Crocetta"},
+				{"name" : "N4U Guest House"},
+				{"name" : "Hotel Spagna"},
+				{"name" : "Torre di Bellosguardo"},
+				{"name" : "Villa La Massa"}
+			]
 		},
 		"Rome" : {
-			"Food" : {
-				"1" : "Ai Tre Scalini",
-				"2" : "Al 34",
-				"3" : "Antico Arco",
-				"4" : "Aristocampo",
-				"5" : "Ba Ghetto",
-				"6" : "Baccanale Trastevere",
-				"7" : "Carlo Menta",
-				"8" : "Casetta di Trastevere",
-				"9" : "Cul De Sac",
-				"10" : "Da Augusto",
-				"11" : "Da Buffeto",
-				"12" : "Da Francesco",
-				"13" : "Da Gildo",
-				"14" : "Dar Poeta",
-				"15" : "Enoteca Corsi",
-				"16" : "Felice a Testaccio",
-				"17" : "Geleteria Frigidarium Roma",
-				"18" : "Ginger",
-				"19" : "Ginos",
-				"20" : "Gusto",
-				"21" : "Hostaria del Moro",
-				"22" : "Il Barocco",
-				"23" : "Insalata Rica",
-				"24" : "L’Insalata Ricca",
-				"25" : "La Carbonara",
-				"26" : "La Meridiana",
-				"27" : "La Taverna del Ghetto",
-				"28" : "Maccheroni",
-				"29" : "Piccolo Buco",
-				"30" : "Pinsere",
-				"31" : "Pizzeria da Remo",
-				"32" : "Ristorante Nino",
-				"33" : "Seety Gelato Roma",
-				"34" : "Tartufo",
-				"35" : "Taverna Del Ghetto",
-				"36" : "Taverna Trilussa",
-				"37" : "Tony’s",
-				"38" : "Trattoria Da Buccatino",
-				"39" : "Ombre Rosse"
-			},
-			"Excursions" : {
-				"1" : "Auditorium Parco Della Musica",
-				"2" : "Borghese Gallery",
-				"3" : "Borghese Gardens",
-				"4" : "Borghese Museum",
-				"5" : "Campo de’ Fiori",
-				"6" : "Capitoline Museums",
-				"7" : "Castel Sant’Angelo",
-				"8" : "Catacombs of Praetextatus",
-				"9" : "Catacombs of San Sebastiano",
-				"10" : "Catacombs of San Callisto",
-				"11" : "Circus Maximus",
-				"12" : "Colosseum",
-				"13" : "Galleria Nazionale d’Arte Moderna",
-				"14" : "Great Synagogue",
-				"15" : "Jewish Ghetto",
-				"16" : "Navona Square",
-				"17" : "Ostia Antica",
-				"18" : "Palatine Hill",
-				"19" : "Pantheon",
-				"20" : "Piazza Navona",
-				"21" : "Piazza Venezia",
-				"22" : "Roman Forum",
-				"23" : "Sistine Chapel",
-				"24" : "Spanish Steps",
-				"25" : "St Peter’s Basilica",
-				"26" : "Stadio Olimpico",
-				"27" : "Terrazza del Pincio",
-				"28" : "Trastevere",
-				"29" : "Trevi Fountain",
-				"30" : "Vatican City",
-				"31" : "Via del Corso",
-				"32" : "Villa Borghese",
-				"33" : "Vittariano Museum"
-			},
-			"Nightlife" : {
-				"1" : "Abbey Theatre",
-				"2" : "Akab",
-				"3" : "Art Cafè",
-				"4" : "Babel",
-				"5" : "Freni e Frizioni",
-				"6" : "G Bar",
-				"7" : "Gilda",
-				"8" : "Grottapinta Lounge",
-				"9" : "Ice Club",
-				"10" : "K-Club",
-				"11" : "Salotto 42",
-				"12" : "Scholars",
-				"13" : "Shari Vari",
-				"14" : "Sloppy Sam’s",
-				"15" : "The Highlander Pub",
-				"16" : "The DrunkenShip",
-				"17" : "Vibe",
-				"18" : "Vinile"
-			},
-			"Sleeping" : {
-				"1" : "Alessandro Palace Hostel",
-				"2" : "Inter Continental",
-				"3" : "Hotel d’Inghilterra",
-				"4" : "Hotel de Rusie",
-				"5" : "Hotel Hassler Roma",
-				"6" : "The Beehive",
-				"7" : "The Yellow",
-				"8" : "Twincities Hostel"
-			}
+			"Food" : [
+				{"name" : "Ai Tre Scalini"},
+				{"name" : "Al 34"},
+				{"name" : "Antico Arco"},
+				{"name" : "Aristocampo"},
+				{"name" : "Ba Ghetto"},
+				{"name" : "Baccanale Trastevere"},
+				{"name" : "Carlo Menta"},
+				{"name" : "Casetta di Trastevere"},
+				{"name" : "Cul De Sac"},
+				{"name" : "Da Augusto"},
+				{"name" : "Da Buffeto"},
+				{"name" : "Da Francesco"},
+				{"name" : "Da Gildo"},
+				{"name" : "Dar Poeta"},
+				{"name" : "Enoteca Corsi"},
+				{"name" : "Felice a Testaccio"},
+				{"name" : "Geleteria Frigidarium Roma"},
+				{"name" : "Ginger"},
+				{"name" : "Ginos"},
+				{"name" : "Gusto"},
+				{"name" : "Hostaria del Moro"},
+				{"name" : "Il Barocco"},
+				{"name" : "Insalata Rica"},
+				{"name" : "L’Insalata Ricca"},
+				{"name" : "La Carbonara"},
+				{"name" : "La Meridiana"},
+				{"name" : "La Taverna del Ghetto"},
+				{"name" : "Maccheroni"},
+				{"name" : "Piccolo Buco"},
+				{"name" : "Pinsere"},
+				{"name" : "Pizzeria da Remo"},
+				{"name" : "Ristorante Nino"},
+				{"name" : "Seety Gelato Roma"},
+				{"name" : "Tartufo"},
+				{"name" : "Taverna Del Ghetto"},
+				{"name" : "Taverna Trilussa"},
+				{"name" : "Tony’s"},
+				{"name" : "Trattoria Da Buccatino"},
+				{"name" : "Ombre Rosse"}
+			],
+			"Excursions" : [
+				{"name" : "Auditorium Parco Della Musica"},
+				{"name" : "Borghese Gallery"},
+				{"name" : "Borghese Gardens"},
+				{"name" : "Borghese Museum"},
+				{"name" : "Campo de’ Fiori"},
+				{"name" : "Capitoline Museums"},
+				{"name" : "Castel Sant’Angelo"},
+				{"name" : "Catacombs of Praetextatus"},
+				{"name" : "Catacombs of San Sebastiano"},
+				{"name" : "Catacombs of San Callisto"},
+				{"name" : "Circus Maximus"},
+				{"name" : "Colosseum"},
+				{"name" : "Galleria Nazionale d’Arte Moderna"},
+				{"name" : "Great Synagogue"},
+				{"name" : "Jewish Ghetto"},
+				{"name" : "Navona Square"},
+				{"name" : "Ostia Antica"},
+				{"name" : "Palatine Hill"},
+				{"name" : "Pantheon"},
+				{"name" : "Piazza Navona"},
+				{"name" : "Piazza Venezia"},
+				{"name" : "Roman Forum"},
+				{"name" : "Sistine Chapel"},
+				{"name" : "Spanish Steps"},
+				{"name" : "St Peter’s Basilica"},
+				{"name" : "Stadio Olimpico"},
+				{"name" : "Terrazza del Pincio"},
+				{"name" : "Trastevere"},
+				{"name" : "Trevi Fountain"},
+				{"name" : "Vatican City"},
+				{"name" : "Via del Corso"},
+				{"name" : "Villa Borghese"},
+				{"name" : "Vittariano Museum"}
+			],
+			"Nightlife" : [
+				{"name" : "Abbey Theatre"},
+				{"name" : "Akab"},
+				{"name" : "Art Cafè"},
+				{"name" : "Babel"},
+				{"name" : "Freni e Frizioni"},
+				{"name" : "G Bar"},
+				{"name" : "Gilda"},
+				{"name" : "Grottapinta Lounge"},
+				{"name" : "Ice Club"},
+				{"name" : "K-Club"},
+				{"name" : "Salotto 42"},
+				{"name" : "Scholars"},
+				{"name" : "Shari Vari"},
+				{"name" : "Sloppy Sam’s"},
+				{"name" : "The Highlander Pub"},
+				{"name" : "The DrunkenShip"},
+				{"name" : "Vibe"},
+				{"name" : "Vinile"}
+			],
+			"Sleeping" : [
+				{"name" : "Alessandro Palace Hostel"},
+				{"name" : "Inter Continental"},
+				{"name" : "Hotel d’Inghilterra"},
+				{"name" : "Hotel de Rusie"},
+				{"name" : "Hotel Hassler Roma"},
+				{"name" : "The Beehive"},
+				{"name" : "The Yellow"},
+				{"name" : "Twincities Hostel"}
+			]
 		},
 		"Venice" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
-	"Spain" :
-	{
+	"Spain" : {
 		"Barcelona" : {
-			"Food" : {
-				"1" : "7 Portes",
-				"2" : "Barceloneta Restaurant",
-				"3" : "Bo de B",
-				"4" : "Botafumeiro",
-				"5" : "Cal Pep",
-				"6" : "Cerveceria Catalana",
-				"7" : "Citrus",
-				"8" : "Da Greco",
-				"9" : "Dos Torres",
-				"10" : "El Japonés",
-				"11" : "Els Quatre Gats",
-				"12" : "Fandango",
-				"13" : "Granja La Pallaresa",
-				"14" : "La Barca del Salamanca",
-				"15" : "La Bella Napoli",
-				"16" : "La Champaneria",
-				"17" : "La Fonda",
-				"18" : "La Hacienda",
-				"19" : "La Pizza Del Born",
-				"20" : "Lactuca",
-				"21" : "Les Quinze Nits",
-				"22" : "Maoz",
-				"23" : "Margarita Blue",
-				"24" : "Marmalade",
-				"25" : "Milk Bar & Bistro",
-				"26" : "Pans & Company",
-				"27" : "Piscolabis",
-				"28" : "Pizza Rapid",
-				"29" : "Pla dels Angels",
-				"30" : "Qu Qu",
-				"31" : "Rosa Negra",
-				"32" : "Tapas 24",
-				"33" : "Tapeo",
-				"34" : "The Bagel Hood",
-				"35" : "tragaluz",
-				"36" : "Wok to Walk"
-			},
-			"Excursions" : {
-				"1" : "Arc de Triomf",
-				"2" : "Barceloneta Beach",
-				"3" : "Barcelona Museum of Contemporary Art",
-				"4" : "Barcelona Zoo",
-				"5" : "Camp Nou (Home of FC Barcelona)",
-				"6" : "Casa Batllo",
-				"7" : "Cathedral",
-				"8" : "El Poblenou",
-				"9" : "Gothic Quarter",
-				"10" : "La Boqueria",
-				"11" : "La Pedrera (Casa Milà)",
-				"12" : "La Sagrada Familia",
-				"13" : "Las Rambla",
-				"14" : "Montjuic",
-				"15" : "Museu de la Xocolata (Chocolate Museum)",
-				"16" : "Museu Erotic de Barcelona (Erotic Museum)",
-				"17" : "Palau de la Musica Catalana",
-				"18" : "Palau Guell",
-				"19" : "Parc de la Ciutadella",
-				"20" : "Parc Güell",
-				"21" : "Parque del Laberinto de Horta",
-				"22" : "Picasso Museum",
-				"23" : "Plaza de Cataluna",
-				"24" : "Plaza Espanya",
-				"25" : "Plaza Reial",
-				"26" : "Port Olimpic",
-				"27" : "Port Vell",
-				"28" : "Santa Maria del Mar",
-				"29" : "Stadio Olimpico",
-				"30" : "Tablao Flamenco Cordobes"
-			},
-			"Nightlife" : {
-				"1" : "Bikini",
-				"2" : "Carpe Diem Lounge",
-				"3" : "Catwalk",
-				"4" : "Coyote Ugly",
-				"5" : "Dow Jones",
-				"6" : "Duvet",
-				"7" : "Elephant",
-				"8" : "Els Quatre Gats",
-				"9" : "Espit Chupitos",
-				"10" : "Harlem Jazz Club",
-				"11" : "Hot Bar",
-				"12" : "IceBarcelona",
-				"13" : "Jamboree",
-				"14" : "La Paloma",
-				"15" : "L’Ovella Negrea (The Black Sheep)",
-				"16" : "Opium",
-				"17" : "Otto Zutz",
-				"18" : "Pipa Club",
-				"19" : "Pippermint",
-				"20" : "Razzmatazz",
-				"21" : "Sala Apolo",
-				"22" : "Shôko",
-				"23" : "Sports Bar",
-				"24" : "Suite 191",
-				"25" : "Sutton",
-				"26" : "The George Payne",
-				"27" : "Up & Down"
-			},
-			"Sleeping" : {
-				"1" : "Hotel Casa Camper",
-				"2" : "Hostal Benidorm",
-				"3" : "Hostal Plaza",
-				"4" : "Hotel Oriente Atiram",
-				"5" : "Hostel Somnio",
-				"6" : "St Christopher’s Inn"
-			}
+			"Food" : [
+				{"name" : "7 Portes"},
+				{"name" : "Barceloneta Restaurant"},
+				{"name" : "Bo de B"},
+				{"name" : "Botafumeiro"},
+				{"name" : "Cal Pep"},
+				{"name" : "Cerveceria Catalana"},
+				{"name" : "Citrus"},
+				{"name" : "Da Greco"},
+				{"name" : "Dos Torres"},
+				{"name" : "El Japonés"},
+				{"name" : "Els Quatre Gats"},
+				{"name" : "Fandango"},
+				{"name" : "Granja La Pallaresa"},
+				{"name" : "La Barca del Salamanca"},
+				{"name" : "La Bella Napoli"},
+				{"name" : "La Champaneria"},
+				{"name" : "La Fonda"},
+				{"name" : "La Hacienda"},
+				{"name" : "La Pizza Del Born"},
+				{"name" : "Lactuca"},
+				{"name" : "Les Quinze Nits"},
+				{"name" : "Maoz"},
+				{"name" : "Margarita Blue"},
+				{"name" : "Marmalade"},
+				{"name" : "Milk Bar & Bistro"},
+				{"name" : "Pans & Company"},
+				{"name" : "Piscolabis"},
+				{"name" : "Pizza Rapid"},
+				{"name" : "Pla dels Angels"},
+				{"name" : "Qu Qu"},
+				{"name" : "Rosa Negra"},
+				{"name" : "Tapas 24"},
+				{"name" : "Tapeo"},
+				{"name" : "The Bagel Hood"},
+				{"name" : "tragaluz"},
+				{"name" : "Wok to Walk"}
+			],
+			"Excursions" : [
+				{"name" : "Arc de Triomf"},
+				{"name" : "Barceloneta Beach"},
+				{"name" : "Barcelona Museum of Contemporary Art"},
+				{"name" : "Barcelona Zoo"},
+				{"name" : "Camp Nou (Home of FC Barcelona)"},
+				{"name" : "Casa Batllo"},
+				{"name" : "Cathedral"},
+				{"name" : "El Poblenou"},
+				{"name" : "Gothic Quarter"},
+				{"name" : "La Boqueria"},
+				{"name" : "La Pedrera (Casa Milà)"},
+				{"name" : "La Sagrada Familia"},
+				{"name" : "Las Rambla"},
+				{"name" : "Montjuic"},
+				{"name" : "Museu de la Xocolata (Chocolate Museum)"},
+				{"name" : "Museu Erotic de Barcelona (Erotic Museum)"},
+				{"name" : "Palau de la Musica Catalana"},
+				{"name" : "Palau Guell"},
+				{"name" : "Parc de la Ciutadella"},
+				{"name" : "Parc Güell"},
+				{"name" : "Parque del Laberinto de Horta"},
+				{"name" : "Picasso Museum"},
+				{"name" : "Plaza de Cataluna"},
+				{"name" : "Plaza Espanya"},
+				{"name" : "Plaza Reial"},
+				{"name" : "Port Olimpic"},
+				{"name" : "Port Vell"},
+				{"name" : "Santa Maria del Mar"},
+				{"name" : "Stadio Olimpico"},
+				{"name" : "Tablao Flamenco Cordobes"}
+			],
+			"Nightlife" : [
+				{"name" : "Bikini"},
+				{"name" : "Carpe Diem Lounge"},
+				{"name" : "Catwalk"},
+				{"name" : "Coyote Ugly"},
+				{"name" : "Dow Jones"},
+				{"name" : "Duvet"},
+				{"name" : "Elephant"},
+				{"name" : "Els Quatre Gats"},
+				{"name" : "Espit Chupitos"},
+				{"name" : "Harlem Jazz Club"},
+				{"name" : "Hot Bar"},
+				{"name" : "IceBarcelona"},
+				{"name" : "Jamboree"},
+				{"name" : "La Paloma"},
+				{"name" : "L’Ovella Negrea (The Black Sheep)"},
+				{"name" : "Opium"},
+				{"name" : "Otto Zutz"},
+				{"name" : "Pipa Club"},
+				{"name" : "Pippermint"},
+				{"name" : "Razzmatazz"},
+				{"name" : "Sala Apolo"},
+				{"name" : "Shôko"},
+				{"name" : "Sports Bar"},
+				{"name" : "Suite 191"},
+				{"name" : "Sutton"},
+				{"name" : "The George Payne"},
+				{"name" : "Up & Down"}
+			],
+			"Sleeping" : [
+				{"name" : "Hotel Casa Camper"},
+				{"name" : "Hostal Benidorm"},
+				{"name" : "Hostal Plaza"},
+				{"name" : "Hotel Oriente Atiram"},
+				{"name" : "Hostel Somnio"},
+				{"name" : "St Christopher’s Inn"}
+			]
 		},
 		"Madrid" : {
-			"Food" : {
-				"1" : "Arzabal",
-				"2" : "Botín",
-				"3" : "Casa Benigna",
-				"4" : "Casa Paco",
-				"5" : "Chocolatería San Gines",
-				"6" : "Entre Suspiro Y Suspiro",
-				"7" : "Goizeko Wellington",
-				"8" : "Juana La Loca",
-				"9" : "La Terraza",
-				"10" : "La Trucha",
-				"11" : "La Vaca Argentina",
-				"12" : "Lateral" ,
-				"13" : "Mercada de San Miguel",
-				"14" : "Nodo",
-				"15" : "Santceloni",
-				"16" : "Sergi Arola",
-				"17" : "Sobrino de Botin",
-				"18" : "Turf",
-				"19" : "Zalacain"
-			},
-			"Excursions" : {
-				"1" : "Buen Retiro Park",
-				"2" : "El Rastro",
-				"3" : "Gate of Toledo",
-				"4" : "La Latina",
-				"5" : "La Sombra",
-				"6" : "Museo Nacional Centro de Arte Reina Sofía",
-				"7" : "Museo Nacional Del Prado",
-				"8" : "Plaza de Espana",
-				"9" : "Plaza de Toros",
-				"10" : "Plaza Mayor",
-				"11" : "Puerta del Sol",
-				"12" : "Royal Botanical Garden",
-				"13" : "Royal Palace of Madrid",
-				"14" : "Santiago Bernabéu Stadium (Home of Real Madrid)",
-				"15" : "Teatro Real"
-			},
-			"Nightlife" : {
-				"1" : "100 Montaditos",
-				"2" : "Charada",
-				"3" : "Delic",
-				"4" : "El Tigre",
-				"5" : "Golden Boite",
-				"6" : "Joy Eslava",
-				"7" : "Las Cuevas de Sésamo", 
-				"8" : "Museo Chicote",
-				"9" : "Pacha",
-				"10" : "Palacio de Cibeles",
-				"11" : "Sala El Sol",
-				"12" : "Teatro de la Zarzuela",
-				"13" : "Teatro Kapital",
-				"14" : "Villa Rosa",
-				"15" : "Viva Madrid",
-				"16" : "Velvet"
-			},
-			"Sleeping" : {
-				"1" : "De Las Letras",
-				"2" : "Hostel Central Palace Madrid",
-				"3" : "Hostel La Macarena",
-				"4" : "Hostel Main Street Madrid",
-				"5" : "Hotel Catalonia Las Cortes",
-				"6" : "Hotel Francisco I",
-				"7" : "Hotel Mora",
-				"8" : "Hotel Paris",
-				"9" : "Room Mate Alicia",
-				"10" : "Room Mate Oscar",
-				"11" : "TRYP Madrid Alameda Aeropuerto Hotel"
-			}
+			"Food" : [
+				{"name" : "Arzabal"},
+				{"name" : "Botín"},
+				{"name" : "Casa Benigna"},
+				{"name" : "Casa Paco"},
+				{"name" : "Chocolatería San Gines"},
+				{"name" : "Entre Suspiro Y Suspiro"},
+				{"name" : "Goizeko Wellington"},
+				{"name" : "Juana La Loca"},
+				{"name" : "La Terraza"},
+				{"name" : "La Trucha"},
+				{"name" : "La Vaca Argentina"},
+				{"name" : "Lateral"},
+				{"name" : "Mercada de San Miguel"},
+				{"name" : "Nodo"},
+				{"name" : "Santceloni"},
+				{"name" : "Sergi Arola"},
+				{"name" : "Sobrino de Botin"},
+				{"name" : "Turf"},
+				{"name" : "Zalacain"}
+			],
+			"Excursions" : [
+				{"name" : "Buen Retiro Park"},
+				{"name" : "El Rastro"},
+				{"name" : "Gate of Toledo"},
+				{"name" : "La Latina"},
+				{"name" : "La Sombra"},
+				{"name" : "Museo Nacional Centro de Arte Reina Sofía"},
+				{"name" : "Museo Nacional Del Prado"},
+				{"name" : "Plaza de Espana"},
+				{"name" : "Plaza de Toros"},
+				{"name" : "Plaza Mayor"},
+				{"name" : "Puerta del Sol"},
+				{"name" : "Royal Botanical Garden"},
+				{"name" : "Royal Palace of Madrid"},
+				{"name" : "Santiago Bernabéu Stadium (Home of Real Madrid)"},
+				{"name" : "Teatro Real"}
+			],
+			"Nightlife" : [
+				{"name" : "100 Montaditos"},
+				{"name" : "Charada"},
+				{"name" : "Delic"},
+				{"name" : "El Tigre"},
+				{"name" : "Golden Boite"},
+				{"name" : "Joy Eslava"},
+				{"name" : "Las Cuevas de Sésamo"}, 
+				{"name" : "Museo Chicote"},
+				{"name" : "Pacha"},
+				{"name" : "Palacio de Cibeles"},
+				{"name" : "Sala El Sol"},
+				{"name" : "Teatro de la Zarzuela"},
+				{"name" : "Teatro Kapital"},
+				{"name" : "Villa Rosa"},
+				{"name" : "Viva Madrid"},
+				{"name" : "Velvet"}
+			],
+			"Sleeping" : [
+				{"name" : "De Las Letras"},
+				{"name" : "Hostel Central Palace Madrid"},
+				{"name" : "Hostel La Macarena"},
+				{"name" : "Hostel Main Street Madrid"},
+				{"name" : "Hotel Catalonia Las Cortes"},
+				{"name" : "Hotel Francisco I"},
+				{"name" : "Hotel Mora"},
+				{"name" : "Hotel Paris"},
+				{"name" : "Room Mate Alicia"},
+				{"name" : "Room Mate Oscar"},
+				{"name" : "TRYP Madrid Alameda Aeropuerto Hotel"}
+			]
 		}
 	},
 
-	"England" :	
-	{		
+	"England" :	{		
 		"London" : {
-			"Food" : {
-				"1" : "Aisa de Cuba",
-				"2" : "As Greek As It Gets",
-				"3" : "Ben’s Cookies",
-				"4" : "Blue Bird",
-				"5" : "Byron",
-				"6" : "Café Forum",
-				"7" : "Café Pacifica",
-				"8" : "Churchill Arms",
-				"9" : "Crazy Homies",
-				"10" : "Gordons Wine Bar",
-				"11" : "Giraffe",
-				"12" : "Harrod’s Food Hall",
-				"13" : "Hummingbird Cupcakes",
-				"14" : "Il Borgo",
-				"15" : "Inamo",
-				"16" : "Itsu",
-				"17" : "Kensington Tandoori",
-				"18" : "La Duree",
-				"19" : "Med Kitchen",
-				"20" : "Muffin Man",
-				"21" : "Nandos",
-				"22" : "Nobu",
-				"23" : "Paul",
-				"24" : "Ping Pong",
-				"25" : "Pret",
-				"26" : "Sandwich World", 
-				"27" : "Sketch",
-				"28" : "SNOG",
-				"29" : "Sumosan",
-				"30" : "TiBits",
-				"31" : "Tom’s Kitchen",
-				"32" : "Vital Ingredient",
-				"33" : "Wagamamas",
-				"34" : "Well Dressed",
-				"35" : "Yo! Sushi"
-			},
-			"Excursions" : {
-				"1" : "Big Ben",
-				"2" : "Bleheim Palace",
-				"3" : "Borough Market",
-				"4" : "Brick Lane Market",
-				"5" : "Brighton",
-				"6" : "British Museum",
-				"7" : "Buckingham Palace",
-				"8" : "Camden Market",
-				"9" : "Carnaby Street",
-				"10" : "Courtland Gallery",
-				"11" : "Covent Gardens",
-				"12" : "Design Museum",
-				"13" : "Greenwich",
-				"14" : "Greenwich Market",
-				"15" : "Hampton Court Palace",
-				"16" : "Harrod’s",
-				"17" : "High Tea",
-				"18" : "House of Parliament",
-				"19" : "Hyde Park",
-				"20" : "Kensington Gardens",
-				"21" : "Kensington Palace",
-				"22" : "Kew Gardens",
-				"23" : "Leicester Square",
-				"24" : "London Bridge",
-				"25" : "London Eye",
-				"26" : "London Tower",
-				"27" : "Madame Tussauds",
-				"28" : "National Gallery",
-				"29" : "National History Museum",
-				"30" : "National Portrait Galery",
-				"31" : "Portobello Market",
-				"32" : "Sir John Soane’s Museum",
-				"33" : "Shakespeare’s Globe",
-				"34" : "St Paul’s Cathedral",
-				"35" : "Tate Modern",
-				"36" : "Tower of London",
-				"37" : "Westminster Abbey",
-				"38" : "Whitechapel Road"
-			},
-			"Nightlife" : {
-				"1" : "Absolut Ice Bar",
-				"2" : "American Bar",
-				"3" : "Anchor Pub",
-				"4" : "Aquarium",
-				"5" : "Archangel",
-				"6" : "Attica",
-				"7" : "Bar Music Hall",
-				"8" : "Big Chill Bar",
-				"9" : "BLC",
-				"10" : "Boujis",
-				"11" : "Brompton Club",
-				"12" : "Bunker Bar",
-				"13" : "Bussey Building",
-				"14" : "Caffe de aris",
-				"15" : "China White",
-				"16" : "Church",
-				"17" : "Cirque du Soir",
-				"18" : "Club 49",
-				"19" : "Cuckoo",
-				"20" : "Doubt",
-				"21" : "Eclipse",
-				"22" : "Egg",
-				"23" : "Fabric",
-				"24" : "Gloucester Arms",
-				"25" : "Heaven",
-				"26" : "Hung, Drawn, & Quartered",
-				"27" : "Imperial College Pub",
-				"28" : "Jak’s Bar",
-				"29" : "Jalouse",
-				"30" : "Jewel Bar",
-				"31" : "Kensington Rooftop Gardens",
-				"32" : "Koko",
-				"33" : "Maddox",
-				"34" : "Mahiki",
-				"35" : "Mother",
-				"36" : "Movida",
-				"37" : "Notting Hills Arts Club",
-				"38" : "O’neill’s",
-				"39" : "Opal",
-				"40" : "Plastic People",
-				"41" : "Punch and judy",
-				"42" : "Proud",
-				"43" : "Queen’s arms",
-				"44" : "Sketch",
-				"45" : "Sports café",
-				"46" : "The Light",
-				"47" : "The Lock",
-				"48" : "The Monarch",
-				"49" : "The Rocket",
-				"50" : "Tiger Tiger",
-				"51" : "Tramp",
-				"52" : "Vendome",
-				"53" : "Verve",
-				"54" : "Walkabout",
-				"55" : "Zoobar"
-			},
-			"Sleeping" : {
-				"1" : "Clink78"
-			}
+			"Food" : [
+				{"name" : "Aisa de Cuba"},
+				{"name" : "As Greek As It Gets"},
+				{"name" : "Ben’s Cookies"},
+				{"name" : "Blue Bird"},
+				{"name" : "Byron"},
+				{"name" : "Café Forum"},
+				{"name" : "Café Pacifica"},
+				{"name" : "Churchill Arms"},
+				{"name" : "Crazy Homies"},
+				{"name" : "Gordons Wine Bar"},
+				{"name" : "Giraffe"},
+				{"name" : "Harrod’s Food Hall"},
+				{"name" : "Hummingbird Cupcakes"},
+				{"name" : "Il Borgo"},
+				{"name" : "Inamo"},
+				{"name" : "Itsu"},
+				{"name" : "Kensington Tandoori"},
+				{"name" : "La Duree"},
+				{"name" : "Med Kitchen"},
+				{"name" : "Muffin Man"},
+				{"name" : "Nandos"},
+				{"name" : "Nobu"},
+				{"name" : "Paul"},
+				{"name" : "Ping Pong"},
+				{"name" : "Pret"},
+				{"name" : "Sandwich World"}, 
+				{"name" : "Sketch"},
+				{"name" : "SNOG"},
+				{"name" : "Sumosan"},
+				{"name" : "TiBits"},
+				{"name" : "Tom’s Kitchen"},
+				{"name" : "Vital Ingredient"},
+				{"name" : "Wagamamas"},
+				{"name" : "Well Dressed"},
+				{"name" : "Yo! Sushi"}
+			],
+			"Excursions" : [
+				{"name" : "Big Ben"},
+				{"name" : "Bleheim Palace"},
+				{"name" : "Borough Market"},
+				{"name" : "Brick Lane Market"},
+				{"name" : "Brighton"},
+				{"name" : "British Museum"},
+				{"name" : "Buckingham Palace"},
+				{"name" : "Camden Market"},
+				{"name" : "Carnaby Street"},
+				{"name" : "Courtland Gallery"},
+				{"name" : "Covent Gardens"},
+				{"name" : "Design Museum"},
+				{"name" : "Greenwich"},
+				{"name" : "Greenwich Market"},
+				{"name" : "Hampton Court Palace"},
+				{"name" : "Harrod’s"},
+				{"name" : "High Tea"},
+				{"name" : "House of Parliament"},
+				{"name" : "Hyde Park"},
+				{"name" : "Kensington Gardens"},
+				{"name" : "Kensington Palace"},
+				{"name" : "Kew Gardens"},
+				{"name" : "Leicester Square"},
+				{"name" : "London Bridge"},
+				{"name" : "London Eye"},
+				{"name" : "London Tower"},
+				{"name" : "Madame Tussauds"},
+				{"name" : "National Gallery"},
+				{"name" : "National History Museum"},
+				{"name" : "National Portrait Galery"},
+				{"name" : "Portobello Market"},
+				{"name" : "Sir John Soane’s Museum"},
+				{"name" : "Shakespeare’s Globe"},
+				{"name" : "St Paul’s Cathedral"},
+				{"name" : "Tate Modern"},
+				{"name" : "Tower of London"},
+				{"name" : "Westminster Abbey"},
+				{"name" : "Whitechapel Road"}
+			],
+			"Nightlife" : [
+				{"name" : "Absolut Ice Bar"},
+				{"name" : "American Bar"},
+				{"name" : "Anchor Pub"},
+				{"name" : "Aquarium"},
+				{"name" : "Archangel"},
+				{"name" : "Attica"},
+				{"name" : "Bar Music Hall"},
+				{"name" : "Big Chill Bar"},
+				{"name" : "BLC"},
+				{"name" : "Boujis"},
+				{"name" : "Brompton Club"},
+				{"name" : "Bunker Bar"},
+				{"name" : "Bussey Building"},
+				{"name" : "Caffe de aris"},
+				{"name" : "China White"},
+				{"name" : "Church"},
+				{"name" : "Cirque du Soir"},
+				{"name" : "Club 49"},
+				{"name" : "Cuckoo"},
+				{"name" : "Doubt"},
+				{"name" : "Eclipse"},
+				{"name" : "Egg"},
+				{"name" : "Fabric"},
+				{"name" : "Gloucester Arms"},
+				{"name" : "Heaven"},
+				{"name" : "Hung, Drawn, & Quartered"},
+				{"name" : "Imperial College Pub"},
+				{"name" : "Jak’s Bar"},
+				{"name" : "Jalouse"},
+				{"name" : "Jewel Bar"},
+				{"name" : "Kensington Rooftop Gardens"},
+				{"name" : "Koko"},
+				{"name" : "Maddox"},
+				{"name" : "Mahiki"},
+				{"name" : "Mother"},
+				{"name" : "Movida"},
+				{"name" : "Notting Hills Arts Club"},
+				{"name" : "O’neill’s"},
+				{"name" : "Opal"},
+				{"name" : "Plastic People"},
+				{"name" : "Punch and judy"},
+				{"name" : "Proud"},
+				{"name" : "Queen’s arms"},
+				{"name" : "Sketch"},
+				{"name" : "Sports café"},
+				{"name" : "The Light"},
+				{"name" : "The Lock"},
+				{"name" : "The Monarch"},
+				{"name" : "The Rocket"},
+				{"name" : "Tiger Tiger"},
+				{"name" : "Tramp"},
+				{"name" : "Vendome"},
+				{"name" : "Verve"},
+				{"name" : "Walkabout"},
+				{"name" : "Zoobar"}
+			],
+			"Sleeping" : [
+				{"name" : "Clink78"}
+			]
 		}
 	},
 
-	"Ireland" :
-	{
+	"Ireland" : {
 		"Dublin" : {
-			"Food" : {
-				"1" : "Arlington Hotel",
-				"2" : "Bagel Factory",
-				"3" : "Cake Cafe",
-				"4" : "Chapter One",
-				"5" : "Coppinger Row",
-				"6" : "Dunne and Crescenzi",
-				"7" : "Elephant Castle",
-				"8" : "Enoteca delle Langhe",
-				"9" : "Fallon & Byrne",
-				"10" : "Forest Avenue",
-				"11" : "Hop House",
-				"12" : "Juniors Deli & Café",
-				"13" : "L’Gueuleton",
-				"14" : "Musashi Noodles and Sushi Bar",
-				"15" : "One Pico",
-				"16" : "Restaurant Patrick Guilbaud",
-				"17" : "The French Paradox",
-				"18" : "Thorton’s Reestaurant"
-			},
-			"Excursions" : {
-				"1" : "Chester Beatty Library",
-				"2" : "Christ Church Cathedral",
-				"3" : "Dublin Bay",
-				"4" : "Dublin Castle",
-				"5" : "Duke of Wellington’s monument",
-				"6" : "Guinness Storehouse Factory",
-				"7" : "Iveagh Gardens",
-				"8" : "Malahide Castle",
-				"9" : "Merrion Sqaure",
-				"10" : "National Gallery of Ireland",
-				"11" : "National Museum of Archaeology",
-				"12" : "National Museum of Decorative Arts and History",
-				"13" : "National Museum of Ireland",
-				"14" : "Newbridge House and Farm",
-				"15" : "Newman House",
-				"16" : "Phoenix Park",
-				"17" : "President’s house",
-				"18" : "St Patrick’s Cathedral",
-				"19" : "St Stephen’s Green",
-				"20" : "Steven Green",
-				"21" : "Temple Bar",
-				"22" : "The Old Library and the Book of Kells",
-				"23" : "Trinity College"
-			},
-			"Nightlife" : {
-				"1" : "Anseo",
-				"2" : "Arlington Hotel’s club",
-				"3" : "Cobblestone",
-				"4" : "Fallons",
-				"5" : "Gogarty’s",
-				"6" : "Grogan’s",
-				"7" : "Horseshoe Bar",
-				"8" : "John Kavanagh",
-				"9" : "Kehoe’s",
-				"10" : "Library Bar",
-				"11" : "Lillie’s Bordello",
-				"12" : "No Name Bar",
-				"13" : "Porterhouse",
-				"14" : "Ryan’s Pub",
-				"15" : "Stag’s Head",
-				"16" : "Temple Bar area"
-			},
-			"Sleeping" : {
-				"1" : "Avalon House",
-				"2" : "Central Hotel",
-				"3" : "Gradton Capital Hotel",
-				"4" : "Intercontinental Dublin",
-				"5" : "Kinlay House",
-				"6" : "The Georgian Hotel",
-				"7" : "The Gibson Hotel",
-				"8" : "The Shelbourne Dublin",
-				"9" : "Westbury Hotel Dublin"
-			}
+			"Food" : [
+				{"name" : "Arlington Hotel"},
+				{"name" : "Bagel Factory"},
+				{"name" : "Cake Cafe"},
+				{"name" : "Chapter One"},
+				{"name" : "Coppinger Row"},
+				{"name" : "Dunne and Crescenzi"},
+				{"name" : "Elephant Castle"},
+				{"name" : "Enoteca delle Langhe"},
+				{"name" : "Fallon & Byrne"},
+				{"name" : "Forest Avenue"},
+				{"name" : "Hop House"},
+				{"name" : "Juniors Deli & Café"},
+				{"name" : "L’Gueuleton"},
+				{"name" : "Musashi Noodles and Sushi Bar"},
+				{"name" : "One Pico"},
+				{"name" : "Restaurant Patrick Guilbaud"},
+				{"name" : "The French Paradox"},
+				{"name" : "Thorton’s Reestaurant"}
+			],
+			"Excursions" : [
+				{"name" : "Chester Beatty Library"},
+				{"name" : "Christ Church Cathedral"},
+				{"name" : "Dublin Bay"},
+				{"name" : "Dublin Castle"},
+				{"name" : "Duke of Wellington’s monument"},
+				{"name" : "Guinness Storehouse Factory"},
+				{"name" : "Iveagh Gardens"},
+				{"name" : "Malahide Castle"},
+				{"name" : "Merrion Sqaure"},
+				{"name" : "National Gallery of Ireland"},
+				{"name" : "National Museum of Archaeology"},
+				{"name" : "National Museum of Decorative Arts and History"},
+				{"name" : "National Museum of Ireland"},
+				{"name" : "Newbridge House and Farm"},
+				{"name" : "Newman House"},
+				{"name" : "Phoenix Park"},
+				{"name" : "President’s house"},
+				{"name" : "St Patrick’s Cathedral"},
+				{"name" : "St Stephen’s Green"},
+				{"name" : "Steven Green"},
+				{"name" : "Temple Bar"},
+				{"name" : "The Old Library and the Book of Kells"},
+				{"name" : "Trinity College"}
+			],
+			"Nightlife" : [
+				{"name" : "Anseo"},
+				{"name" : "Arlington Hotel’s club"},
+				{"name" : "Cobblestone"},
+				{"name" : "Fallons"},
+				{"name" : "Gogarty’s"},
+				{"name" : "Grogan’s"},
+				{"name" : "Horseshoe Bar"},
+				{"name" : "John Kavanagh"},
+				{"name" : "Kehoe’s"},
+				{"name" : "Library Bar"},
+				{"name" : "Lillie’s Bordello"},
+				{"name" : "No Name Bar"},
+				{"name" : "Porterhouse"},
+				{"name" : "Ryan’s Pub"},
+				{"name" : "Stag’s Head"},
+				{"name" : "Temple Bar area"}
+			],
+			"Sleeping" : [
+				{"name" : "Avalon House"},
+				{"name" : "Central Hotel"},
+				{"name" : "Gradton Capital Hotel"},
+				{"name" : "Intercontinental Dublin"},
+				{"name" : "Kinlay House"},
+				{"name" : "The Georgian Hotel"},
+				{"name" : "The Gibson Hotel"},
+				{"name" : "The Shelbourne Dublin"},
+				{"name" : "Westbury Hotel Dublin"}
+			]
 		}
 	},
 
-	"Australia" : 
-	{	
-			"Sydney" : {
-				"Food" : {
-					"1" : "bills",
-					"2" : "Bourke Street Bakery",
-					"3" : "Buon Ricordo",
-					"4" : "Cho Cho San",
-					"5" : "Ester",
-					"6" : "Icebergs Dining Room and Bar",
-					"7" : "Rockpool",
-					"8" : "Sake",
-					"9" : "Tetsuya's",
-					"10" : "Quay"
-				},
-				"Excursions" : {
-					"1" : "Bondi Beach",
-					"2" : "Blue Mountains",
-					"3" : "Manly Beach",
-					"4" : "Royal Botanic Garden",
-					"5" : "Sydney Football Stadium",
-					"6" : "Sydney Harbour Bridge",
-					"7" : "Syney Harbour National Park",
-					"8" : "Sydney Opera House"
+	"Australia" : {	
+		"Sydney" : {
+			"Food" : [
+				{"name" : "bills"},
+				{"name" : "Bourke Street Bakery"},
+				{"name" : "Buon Ricordo"},
+				{"name" : "Cho Cho San"},
+				{"name" : "Ester"},
+				{"name" : "Icebergs Dining Room and Bar"},
+				{"name" : "Rockpool"},
+				{"name" : "Sake"},
+				{"name" : "Tetsuya's"},
+				{"name" : "Quay"}
+			],
+			"Excursions" : [
+				{"name" : "Bondi Beach"},
+				{"name" : "Blue Mountains"},
+				{"name" : "Manly Beach"},
+				{"name" : "Royal Botanic Garden"},
+				{"name" : "Sydney Football Stadium"},
+				{"name" : "Sydney Harbour Bridge"},
+				{"name" : "Syney Harbour National Park"},
+				{"name" : "Sydney Opera House"}
 
-				},
-				"Nightlife" : {
-					"1" : "Bambini Wine Room",
-					"2" : "Beach Road Hotel",
-					"3" : "Eau de Vie",
-					"4" : "Hemmesphere",
-					"5" : "Hugo's Lounge",
-					"6" : "Ivy",
-					"7" : "Opera Bar",
-					"8" : "The Basement"
-				},
-				"Sleeping" : {
-					"1": "Wake Up! Sydney"
-				}
-			},
-			"Melbourne" : {
-				"Food" : {
-					"1" : "Anada",
-					"2" : "Andrew's Burgers",
-					"3" : "Attica",
-					"4" : "Cafe di Stasio",
-					"5" : "HuTong Dumpling Bar",
-					"6" : "Kenzan",
-					"7" : "MoVida",
-					"8" : "Supernormal",
-					"9" : "Vue de Monde"
-				},
-				"Excursions" : {
-					"1" : "Birrarung Marr",
-					"2" : "Brighton Beach",
-					"3" : "Brunswick",
-					"4" : "Dandenong Ranges",
-					"5" : "Federation Square",
-					"6" : "Fitzroy",
-					"7" : "Grampians",
-					"8" : "Great Ocean Road",
-					"9" : "Healesville Sanctuary",
-					"10" : "Melbourne Cricket Ground",
-					"11" : "Melbourne Museum",
-					"12" : "Phillip Island",
-					"13" : "Queen Victoria Market",
-					"14" : "Royal Botanic Gardens",
-					"15" : "St Kilda Beach",
-					"16" : "State Library of Victoria",
-					"17" : "Wilsons Promontry National Park",
-					"18" : "Yarra Valley Wineries"
-				},
-				"Nightlife" : {
-					"1" : "Bar Americano",
-					"2" : "Father's Office",
-					"3" : "Jungle Boy",
-					"4" : "Lucky Coq",
-					"5" : "Naked for Satan",
-					"6" : "State of Grace",
-					"7" : "Spleen",
-					"8" : "The Toff In Town",
-					"9" : "The Workshop Bar"
-				},
-				"Sleeping" : {
-					"1" : "Discovery Melbourne",
-					"2" : "Park Hyatt"
-				}
-			},
-			"Tasmania" : {
-				"Food" : 
-				{
+			],
+			"Nightlife" : [
+				{"name" : "Bambini Wine Room"},
+				{"name" : "Beach Road Hotel"},
+				{"name" : "Eau de Vie"},
+				{"name" : "Hemmesphere"},
+				{"name" : "Hugo's Lounge"},
+				{"name" : "Ivy"},
+				{"name" : "Opera Bar"},
+				{"name" : "The Basement"}
+			],
+			"Sleeping" : [
+				{"name": "Wake Up! Sydney"}
+			]
+		},
+		"Melbourne" : {
+			"Food" : [
+				{"name" : "Anada"},
+				{"name" : "Andrew's Burgers"},
+				{"name" : "Attica"},
+				{"name" : "Cafe di Stasio"},
+				{"name" : "HuTong Dumpling Bar"},
+				{"name" : "Kenzan"},
+				{"name" : "MoVida"},
+				{"name" : "Supernormal"},
+				{"name" : "Vue de Monde"}
+			],
+			"Excursions" : [
+				{"name" : "Birrarung Marr"},
+				{"name" : "Brighton Beach"},
+				{"name" : "Brunswick"},
+				{"name" : "Dandenong Ranges"},
+				{"name" : "Federation Square"},
+				{"name" : "Fitzroy"},
+				{"name" : "Grampians"},
+				{"name" : "Great Ocean Road"},
+				{"name" : "Healesville Sanctuary"},
+				{"name" : "Melbourne Cricket Ground"},
+				{"name" : "Melbourne Museum"},
+				{"name" : "Phillip Island"},
+				{"name" : "Queen Victoria Market"},
+				{"name" : "Royal Botanic Gardens"},
+				{"name" : "St Kilda Beach"},
+				{"name" : "State Library of Victoria"},
+				{"name" : "Wilsons Promontry National Park"},
+				{"name" : "Yarra Valley Wineries"}
+			],
+			"Nightlife" : [
+				{"name" : "Bar Americano"},
+				{"name" : "Father's Office"},
+				{"name" : "Jungle Boy"},
+				{"name" : "Lucky Coq"},
+				{"name" : "Naked for Satan"},
+				{"name" : "State of Grace"},
+				{"name" : "Spleen"},
+				{"name" : "The Toff In Town"},
+				{"name" : "The Workshop Bar"}
+			],
+			"Sleeping" : [
+				{"name" : "Discovery Melbourne"},
+				{"name" : "Park Hyatt"}
+			]
+		},
+		"Tasmania" : {
+			"Food" : [
 
-				},
-				"Excursions" : {
+			],
+			"Excursions" : [
 
-				},
-				"Nightlife" : {
+			],
+			"Nightlife" : [
 
-				},
-				"Sleeping" : {
+			],
+			"Sleeping" : [
 
-				}
-			},
-			
-			"New Zealand" : {
-				"Food" : 
-				{
+			]
+		},
+		
+		"New Zealand" : {
+			"Food" : [
 
-				},
-				"Excursions" : {
+			],
+			"Excursions" : [
 
-				},
-				"Nightlife" : {
+			],
+			"Nightlife" : [
 
-				},
-				"Sleeping" : {
+			],
+			"Sleeping" : [
 
-				}
-			}
-			
+			]
+		}
 	},
 
-	"Germany" :
-	{
+	"Germany" : {
 		"Berlin" : {
-			"Food" : {
-				"1" : "Café V",
-				"2" : "Amrit",
-				"3" : "Yellow Sunshine",
-				"4" : "Kafar Dachgarten", 
-				"5" : "Monsieur Vuong",
-				"6" : "Schneeweiß"
-			},
-			"Excursions" : {
-				"1" : "Brandenburg Gate",
-				"2" : "East Side Gallery", 
-				"3" : "Free Berlin Walking Tour",
-				"4" : "Mauerpark",
-				"5" : "Neues Museum",
-				"6" : "Jewish Museum", 
-				"7" : "Memorial to the Murdered Jews of Europe"
+			"Food" : [
+				{"name" : "Café V"},
+				{"name" : "Amrit"},
+				{"name" : "Yellow Sunshine"},
+				{"name" : "Kafar Dachgarten"}, 
+				{"name" : "Monsieur Vuong"},
+				{"name" : "Schneeweiß"}
+			],
+			"Excursions" : [
+				{"name" : "Brandenburg Gate"},
+				{"name" : "East Side Gallery"}, 
+				{"name" : "Free Berlin Walking Tour"},
+				{"name" : "Mauerpark"},
+				{"name" : "Neues Museum"},
+				{"name" : "Jewish Museum"}, 
+				{"name" : "Memorial to the Murdered Jews of Europe"}
 				
-			},
-			"Nightlife" : {
-				"1" : "Cake Bar",
-				"2" : "Rose Bar",
-				"3" : "Berghain",
-				"4" : "Bastar d Prater",
-				"5" : "Club Soda",
-				"6" : "Hackersher Market",
-				"7" : "Magnet Club"
-			},
-			"Sleeping" : {
-				"1" : "Baxpax Downtown Hostel/Hotel",
-				"2" : "St. Christopher’s Berlin",
-				"3" : "Singer 109",
-				"4" : "Hotel Jurine Berlin Mitte",
-				"5" : "Easy 7 Hostel"
-			}
+			],
+			"Nightlife" : [
+				{"name" : "Cake Bar"},
+				{"name" : "Rose Bar"},
+				{"name" : "Berghain"},
+				{"name" : "Bastar d Prater"},
+				{"name" : "Club Soda"},
+				{"name" : "Hackersher Market"},
+				{"name" : "Magnet Club"}
+			],
+			"Sleeping" : [
+				{"name" : "Baxpax Downtown Hostel/Hotel"},
+				{"name" : "St. Christopher’s Berlin"},
+				{"name" : "Singer 109"},
+				{"name" : "Hotel Jurine Berlin Mitte"},
+				{"name" : "Easy 7 Hostel"}
+			]
 		},
 
 		"Munich" : {
-			"Food" : {
-				"1" : "Augustenerkeller Biergarden",
-				"2" : "Rischart Bakery"
-			},
-			"Excursions" : {
-				"1" : "Olympic Park",
-				"2" : "BMW Museum and Factory",
-				"3" : "Dachau Concentration Camp",
-				"4" : "English Park",
-				"5" : "Hoenbrafus Biergarden",
-				"6" : "Mike's Bike Tour",
-				"7" : "Schloss Park"
-			},
-			"Nightlife" : {
+			"Food" : [
+				{"name" : "Augustenerkeller Biergarden"},
+				{"name" : "Rischart Bakery"}
+			],
+			"Excursions" : [
+				{"name" : "Olympic Park"},
+				{"name" : "BMW Museum and Factory"},
+				{"name" : "Dachau Concentration Camp"},
+				{"name" : "English Park"},
+				{"name" : "Hoenbrafus Biergarden"},
+				{"name" : "Mike's Bike Tour"},
+				{"name" : "Schloss Park"}
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
-				"1" : "Courtyard Mariott",
-				"2" : "Wombats Hostel"
-			}
+			],
+			"Sleeping" : [
+				{"name" : "Courtyard Mariott"},
+				{"name" : "Wombats Hostel"}
+			]
 		}
 	},
 
-	"France" :
-	{
+	"France" : {
 		"Paris" : {
-			"Food" : {
-				"1" : "Abri",
-				"2" : "Auberge Pyrénées Cévennes",
-				"3" : "Angelina" ,
-				"4" : "Bagels & Brownies",
-				"5" : "Bal Cafe",
-				"4" : "Breakfast in America",
-				"5" : "Buddha-Bar",
-				"6" : "Cafe Contrescarpe",
-				"7" : "Café des Deux Moulins",
-				"8" : "Chez Janou",
-				"9" : "Eggs & co",
-				"10" : "Frenchie",
-				"11" : "Guy Savoy",
-				"12" : "Holybelly",
-				"13" : "L’As du Fallafel",
-				"14" : "La Bourse et La Vie",
-				"15" : "La Petite Chaise",
-				"16" : "Le Coupe Chou",
-				"17" : "Le Refuge des Fondus",
-				"18" : "Le Relais Gascon",
-				"19" : "Les Deux Magots",
-				"20" : "Mariette",
-				"21" : "Pitzman",
-				"22" : "R Cafe",
-				"23" : "Salle à Manger",
-				"24" : "Spring",
-				"25" : "Water Bar Colette"
-			},
-			"Excursions" : {
-				"1" : "Arc de Triomphe",
-				"2" : "Canal St-Martin",
-				"3" : "Centre Georges Pompidou",
-				"4" : "Champ de Mars (Park)",
-				"5" : "Champs Elysees",
-				"6" : "Crazy Horse",
-				"7" : "Disneyland Paris",
-				"8" : "Eiffel Tower",
-				"9" : "Grand Palais",
-				"10" : "Jardin du Lexembourg",
-				"11" : "Jewish Quarter",
-				"12" : "Latin Quarter",
-				"13" :"Les Catacombes",
-				"14" : "Louvre",
-				"15" : "Montmartre",
-				"16" : "Moulin Rouge",
-				"17" : "Musée d'Orsay",
-				"18" : "Musée L'Orangerie",
-				"19" : "Musée Picasso",
-				"20" : "Musée Rodin",
-				"21" : "Notre Dame de Paris",
-				"22" : "Palais Garnier",
-				"23" : "Palace of Versailles",
-				"24" : "Panthéon",
-				"25" : "Père Lachaise Cemetery",
-				"26" : "Pont L'Archeveche",
-				"27" : "Sacré Coeur",
-				"28" : "Trocadéro"
-			},
-			"Nightlife" : {
-				"1" : "Barfly",
-				"2" : "Candelaria",
-				"3" : "Concrete",
-				"4" : "Dirty Dick",
-				"5" : "Glass",
-				"6" : "Experimental Cocktail Club",
-				"7" : "Le Bar du Bristol",
-				"8" : "Le Batofar",
-				"9" : "Le Mabillon",
-				"10" : "Le Queen",
-				"11" : "Saint James Club Paris",
-				"12" : "Showcase",
-				"13" : "Tiger Bar",
-				"14" : "The Frog & Princess",
-				"15" : "The Fifth Bar",
-				"16" : "Zig Zag"
-			},
-			"Sleeping" : {
-				"1" : "Best Western",
-				"2" : "Four Seasons Hotel George V Paris",
-				"3" : "Holiday Inn",
-				"4" : "Hotel Ascot Opera",
-				"5" : "Hotel Familia",
-				"6" : "Hotel Meurice",
-				"7" : "The Loft Hostel Paris",
-				"8" : "Three Ducks Hostel",
-				"9" : "Young & Happy Hostel" 
-			}
+			"Food" : [
+				{"name" : "Abri"},
+				{"name" : "Auberge Pyrénées Cévennes"},
+				{"name" : "Angelina"},
+				{"name" : "Bagels & Brownies"},
+				{"name" : "Bal Cafe"},
+				{"name" : "Breakfast in America"},
+				{"name" : "Buddha-Bar"},
+				{"name" : "Cafe Contrescarpe"},
+				{"name" : "Café des Deux Moulins"},
+				{"name" : "Chez Janou"},
+				{"name" : "Eggs & co"},
+				{"name" : "Frenchie"},
+				{"name" : "Guy Savoy"},
+				{"name" : "Holybelly"},
+				{"name" : "L’As du Fallafel"},
+				{"name" : "La Bourse et La Vie"},
+				{"name" : "La Petite Chaise"},
+				{"name" : "Le Coupe Chou"},
+				{"name" : "Le Refuge des Fondus"},
+				{"name" : "Le Relais Gascon"},
+				{"name" : "Les Deux Magots"},
+				{"name" : "Mariette"},
+				{"name" : "Pitzman"},
+				{"name" : "R Cafe"},
+				{"name" : "Salle à Manger"},
+				{"name" : "Spring"},
+				{"name" : "Water Bar Colette"}
+			],
+			"Excursions" : [
+				{"name" : "Arc de Triomphe"},
+				{"name" : "Canal St-Martin"},
+				{"name" : "Centre Georges Pompidou"},
+				{"name" : "Champ de Mars (Park)"},
+				{"name" : "Champs Elysees"},
+				{"name" : "Crazy Horse"},
+				{"name" : "Disneyland Paris"},
+				{"name" : "Eiffel Tower"},
+				{"name" : "Grand Palais"},
+				{"name" : "Jardin du Lexembourg"},
+				{"name" : "Jewish Quarter"},
+				{"name" : "Latin Quarter"},
+				{"name" :"Les Catacombes"},
+				{"name" : "Louvre"},
+				{"name" : "Montmartre"},
+				{"name" : "Moulin Rouge"},
+				{"name" : "Musée d'Orsay"},
+				{"name" : "Musée L'Orangerie"},
+				{"name" : "Musée Picasso"},
+				{"name" : "Musée Rodin"},
+				{"name" : "Notre Dame de Paris"},
+				{"name" : "Palais Garnier"},
+				{"name" : "Palace of Versailles"},
+				{"name" : "Panthéon"},
+				{"name" : "Père Lachaise Cemetery"},
+				{"name" : "Pont L'Archeveche"},
+				{"name" : "Sacré Coeur"},
+				{"name" : "Trocadéro"}
+			],
+			"Nightlife" : [
+				{"name" : "Barfly"},
+				{"name" : "Candelaria"},
+				{"name" : "Concrete"},
+				{"name" : "Dirty Dick"},
+				{"name" : "Glass"},
+				{"name" : "Experimental Cocktail Club"},
+				{"name" : "Le Bar du Bristol"},
+				{"name" : "Le Batofar"},
+				{"name" : "Le Mabillon"},
+				{"name" : "Le Queen"},
+				{"name" : "Saint James Club Paris"},
+				{"name" : "Showcase"},
+				{"name" : "Tiger Bar"},
+				{"name" : "The Frog & Princess"},
+				{"name" : "The Fifth Bar"},
+				{"name" : "Zig Zag"}
+			],
+			"Sleeping" : [
+				{"name" : "Best Western"},
+				{"name" : "Four Seasons Hotel George V Paris"},
+				{"name" : "Holiday Inn"},
+				{"name" : "Hotel Ascot Opera"},
+				{"name" : "Hotel Familia"},
+				{"name" : "Hotel Meurice"},
+				{"name" : "The Loft Hostel Paris"},
+				{"name" : "Three Ducks Hostel"},
+				{"name" : "Young & Happy Hostel"}
+			]
 		}
 	},
 
 	"Portugal" :
 	{
 		"Lagos" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		},
 		"Lisbon" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
 	"Holland" : 
 	{
 		"Amsterdam" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
 	"Czech Republic" :
 	{
 		"Prague" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
-	"Morocco" :
-	{
+	"Morocco" : {
 		"Marrakesh" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
-	"Switzerland" : 
-	{
+	"Switzerland" : {
 		"Interlaken": {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	},
 
-	"Greece" : 
-	{
+	"Greece" : {
 		"Mykonos" : {
-			"Food" : {
+			"Food" : [
 
-			},
-			"Excursions" : {
+			],
+			"Excursions" : [
 
-			},
-			"Nightlife" : {
+			],
+			"Nightlife" : [
 
-			},
-			"Sleeping" : {
+			],
+			"Sleeping" : [
 
-			}
+			]
 		}
 	}
 }
