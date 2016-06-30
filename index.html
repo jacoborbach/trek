@@ -3,7 +3,8 @@
 <head>
 <title>
 </title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script type="text/javascript" src="myScripts.js"></script>
 <script type="text/javascript">
 
@@ -11,9 +12,10 @@ $(function(){
 
     $("#myForm").submit(function(event) {
         var serial = $(this).serializeArray();
-        var json = myBuild(serial);
+        var json = buildJson(serial);
         console.log(json);
         //creatUserJson(json);
+        writeJson();
         event.preventDefault();
     });
 });

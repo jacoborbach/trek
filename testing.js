@@ -1,4 +1,3 @@
-function writeJson(){
 
   var fs = require('fs');
 
@@ -30,30 +29,3 @@ function writeJson(){
       });
     }
   });
-}
-
-function createUserJson(json){
-  var fs = require('fs');
-
-  var stringy = JSON.stringify(json);
-
-  fs.writeFile('test.json', json, function(err) {
-    if (err) {
-      console.log(err);
-      throw err;
-    } else {
-      console.log("test.json was written");
-    }
-  })
-}
-
-function buildJson(myArray){
-  var data = {};
-  var array = myArray;
-
-  jQuery.each(array, function() {
-        data[this.name] = this.value;
-  });
-    
-  return data;
-}
