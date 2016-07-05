@@ -1,0 +1,76 @@
+"Madrid" :
+		{
+			"Food" :
+			{
+				"1" : "Arzabal",
+				"2" : "Botín",
+				"3" : "Casa Benigna",
+				"4" : "Casa Paco",
+				"5" : "Chocolatería San Gines",
+				"6" : "Entre Suspiro Y Suspiro",
+				"7" : "Goizeko Wellington",
+				"8" : "Juana La Loca",
+				"9" : "La Terraza",
+				"10" : "La Trucha",
+				"11" : "La Vaca Argentina",
+				"12" : "Lateral" ,
+				"13" : "Mercada de San Miguel",
+				"14" : "Nodo",
+				"15" : "Santceloni",
+				"16" : "Sergi Arola",
+				"17" : "Sobrino de Botin",
+				"18" : "Turf",
+				"19" : "Zalacain"
+			},
+			"Excursions" :
+			{
+				"1" : "Buen Retiro Park",
+				"2" : "El Rastro",
+				"3" : "Gate of Toledo",
+				"4" : "La Latina",
+				"5" : "La Sombra",
+				"6" : "Museo Nacional Centro de Arte Reina Sofía",
+				"7" : "Museo Nacional Del Prado",
+				"8" : "Plaza de Espana",
+				"9" : "Plaza de Toros",
+				"10" : "Plaza Mayor",
+				"11" : "Puerta del Sol",
+				"12" : "Royal Botanical Garden",
+				"13" : "Royal Palace of Madrid",
+				"14" : "Santiago Bernabéu Stadium (Home of Real Madrid)",
+				"15" : "Teatro Real"
+			},
+			"Nightlife" :
+			{
+				"1" : "100 Montaditos",
+				"2" : "Charada",
+				"3" : "Delic",
+				"4" : "El Tigre",
+				"5" : "Golden Boite",
+				"6" : "Joy Eslava",
+				"7" : "Las Cuevas de Sésamo", 
+				"8" : "Museo Chicote",
+				"9" : "Pacha",
+				"10" : "Palacio de Cibeles",
+				"11" : "Sala El Sol",
+				"12" : "Teatro de la Zarzuela",
+				"13" : "Teatro Kapital",
+				"14" : "Villa Rosa",
+				"15" : "Viva Madrid",
+				"16" : "Velvet"
+			},
+			"Sleeping" :
+			{
+				"1" : "De Las Letras",
+				"2" : "Hostel Central Palace Madrid",
+				"3" : "Hostel La Macarena",
+				"4" : "Hostel Main Street Madrid",
+				"5" : "Hotel Catalonia Las Cortes",
+				"6" : "Hotel Francisco I",
+				"7" : "Hotel Mora",
+				"8" : "Hotel Paris",
+				"9" : "Room Mate Alicia",
+				"10" : "Room Mate Oscar",
+				"11" : "TRYP Madrid Alameda Aeropuerto Hotel"
+			},
+		},
