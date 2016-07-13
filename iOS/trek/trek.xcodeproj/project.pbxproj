@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBF3D591D36034000A73FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D581D36034000A73FAE /* AppDelegate.swift */; };
+		1FBF3D5E1D36034000A73FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3D5C1D36034000A73FAE /* Main.storyboard */; };
+		1FBF3D601D36034000A73FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3D5F1D36034000A73FAE /* Assets.xcassets */; };
+		1FBF3D631D36034000A73FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3D611D36034000A73FAE /* LaunchScreen.storyboard */; };
+		1FBF3D6B1D36037C00A73FAE /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D6A1D36037C00A73FAE /* HomeFeedViewController.swift */; };
+		1FBF3D6D1D3603A600A73FAE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D6C1D3603A600A73FAE /* SearchViewController.swift */; };
+		1FBF3D6F1D36053200A73FAE /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D6E1D36053200A73FAE /* StatsViewController.swift */; };
+		1FBF3D711D3605DF00A73FAE /* PlaceStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D701D3605DF00A73FAE /* PlaceStatsViewController.swift */; };
+		1FBF3D731D360A6A00A73FAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBF3D721D360A6A00A73FAE /* MapKit.framework */; };
+		1FBF3D751D360B4800A73FAE /* AddTrekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D741D360B4800A73FAE /* AddTrekViewController.swift */; };
+		1FBF3D771D360E3100A73FAE /* AddStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D761D360E3100A73FAE /* AddStatsViewController.swift */; };
+		1FBF3D791D3610AA00A73FAE /* SearchForStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D781D3610AA00A73FAE /* SearchForStatsViewController.swift */; };
+		1FBF3D7B1D3611B000A73FAE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3D7A1D3611B000A73FAE /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FBF3D551D36034000A73FAE /* trek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBF3D581D36034000A73FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FBF3D5D1D36034000A73FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FBF3D5F1D36034000A73FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBF3D621D36034000A73FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FBF3D641D36034000A73FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBF3D6A1D36037C00A73FAE /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeFeedViewController.swift; path = ../HomeFeedViewController.swift; sourceTree = "<group>"; };
+		1FBF3D6C1D3603A600A73FAE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1FBF3D6E1D36053200A73FAE /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		1FBF3D701D3605DF00A73FAE /* PlaceStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceStatsViewController.swift; sourceTree = "<group>"; };
+		1FBF3D721D360A6A00A73FAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1FBF3D741D360B4800A73FAE /* AddTrekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTrekViewController.swift; sourceTree = "<group>"; };
+		1FBF3D761D360E3100A73FAE /* AddStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStatsViewController.swift; sourceTree = "<group>"; };
+		1FBF3D781D3610AA00A73FAE /* SearchForStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForStatsViewController.swift; sourceTree = "<group>"; };
+		1FBF3D7A1D3611B000A73FAE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBF3D521D36034000A73FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBF3D731D360A6A00A73FAE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBF3D4C1D36034000A73FAE = {
+			isa = PBXGroup;
+			children = (
+				1FBF3D721D360A6A00A73FAE /* MapKit.framework */,
+				1FBF3D571D36034000A73FAE /* trek */,
+				1FBF3D561D36034000A73FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBF3D561D36034000A73FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF3D551D36034000A73FAE /* trek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBF3D571D36034000A73FAE /* trek */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF3D6A1D36037C00A73FAE /* HomeFeedViewController.swift */,
+				1FBF3D6C1D3603A600A73FAE /* SearchViewController.swift */,
+				1FBF3D581D36034000A73FAE /* AppDelegate.swift */,
+				1FBF3D5C1D36034000A73FAE /* Main.storyboard */,
+				1FBF3D781D3610AA00A73FAE /* SearchForStatsViewController.swift */,
+				1FBF3D7A1D3611B000A73FAE /* ProfileViewController.swift */,
+				1FBF3D6E1D36053200A73FAE /* StatsViewController.swift */,
+				1FBF3D701D3605DF00A73FAE /* PlaceStatsViewController.swift */,
+				1FBF3D741D360B4800A73FAE /* AddTrekViewController.swift */,
+				1FBF3D761D360E3100A73FAE /* AddStatsViewController.swift */,
+				1FBF3D5F1D36034000A73FAE /* Assets.xcassets */,
+				1FBF3D611D36034000A73FAE /* LaunchScreen.storyboard */,
+				1FBF3D641D36034000A73FAE /* Info.plist */,
+			);
+			path = trek;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBF3D541D36034000A73FAE /* trek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBF3D671D36034000A73FAE /* Build configuration list for PBXNativeTarget "trek" */;
+			buildPhases = (
+				1FBF3D511D36034000A73FAE /* Sources */,
+				1FBF3D521D36034000A73FAE /* Frameworks */,
+				1FBF3D531D36034000A73FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trek;
+			productName = trek;
+			productReference = 1FBF3D551D36034000A73FAE /* trek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBF3D4D1D36034000A73FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JustWilks;
+				TargetAttributes = {
+					1FBF3D541D36034000A73FAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1FBF3D501D36034000A73FAE /* Build configuration list for PBXProject "trek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBF3D4C1D36034000A73FAE;
+			productRefGroup = 1FBF3D561D36034000A73FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBF3D541D36034000A73FAE /* trek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBF3D531D36034000A73FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBF3D631D36034000A73FAE /* LaunchScreen.storyboard in Resources */,
+				1FBF3D601D36034000A73FAE /* Assets.xcassets in Resources */,
+				1FBF3D5E1D36034000A73FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBF3D511D36034000A73FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBF3D791D3610AA00A73FAE /* SearchForStatsViewController.swift in Sources */,
+				1FBF3D711D3605DF00A73FAE /* PlaceStatsViewController.swift in Sources */,
+				1FBF3D771D360E3100A73FAE /* AddStatsViewController.swift in Sources */,
+				1FBF3D6D1D3603A600A73FAE /* SearchViewController.swift in Sources */,
+				1FBF3D751D360B4800A73FAE /* AddTrekViewController.swift in Sources */,
+				1FBF3D591D36034000A73FAE /* AppDelegate.swift in Sources */,
+				1FBF3D7B1D3611B000A73FAE /* ProfileViewController.swift in Sources */,
+				1FBF3D6F1D36053200A73FAE /* StatsViewController.swift in Sources */,
+				1FBF3D6B1D36037C00A73FAE /* HomeFeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FBF3D5C1D36034000A73FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBF3D5D1D36034000A73FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBF3D611D36034000A73FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBF3D621D36034000A73FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBF3D651D36034000A73FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FBF3D661D36034000A73FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBF3D681D36034000A73FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justwilks.trek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FBF3D691D36034000A73FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justwilks.trek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBF3D501D36034000A73FAE /* Build configuration list for PBXProject "trek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBF3D651D36034000A73FAE /* Debug */,
+				1FBF3D661D36034000A73FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBF3D671D36034000A73FAE /* Build configuration list for PBXNativeTarget "trek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBF3D681D36034000A73FAE /* Debug */,
+				1FBF3D691D36034000A73FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBF3D4D1D36034000A73FAE /* Project object */;
+}
